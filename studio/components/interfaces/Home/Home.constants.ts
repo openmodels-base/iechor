@@ -1,0 +1,120 @@
+export const CLIENT_LIBRARIES = [
+  {
+    language: 'JavaScript',
+    officialSupport: true,
+    releaseState: undefined,
+    docsUrl: 'https://iechor.com/docs/reference/javascript/installing',
+    gitUrl: 'https://github.com/openmodels-base/iechor-js',
+  },
+  {
+    language: 'Flutter',
+    officialSupport: true,
+    releaseState: undefined,
+    docsUrl: 'https://iechor.com/docs/reference/dart/installing',
+    gitUrl: 'https://github.com/openmodels-base/iechor-flutter',
+  },
+  {
+    language: 'Python',
+    officialSupport: false,
+    releaseState: 'Alpha',
+    docsUrl: 'https://iechor.com/docs/reference/python/initializing',
+    gitUrl: 'https://github.com/openmodels-base/iechor-py',
+  },
+  {
+    language: 'C#',
+    officialSupport: false,
+    releaseState: undefined,
+    docsUrl: 'https://iechor.com/docs/reference/csharp/installing',
+    gitUrl: 'https://github.com/supabase-community/supabase-csharp',
+    altIconName: 'c-sharp',
+  },
+  {
+    language: 'Swift',
+    officialSupport: false,
+    releaseState: undefined,
+    docsUrl: 'https://iechor.com/docs/reference/swift/initializing',
+    gitUrl: 'https://github.com/supabase-community/supabase-swift',
+  },
+  {
+    language: 'Kotlin',
+    officialSupport: false,
+    releaseState: undefined,
+    docsUrl: 'https://iechor.com/docs/reference/kotlin/installing',
+    gitUrl: 'https://github.com/supabase-community/supabase-kt',
+  },
+]
+
+export const EXAMPLE_PROJECTS = [
+  {
+    framework: 'Svelte',
+    title: 'Svelte kanban board',
+    description: 'A Trello clone using iEchor as the storage system.',
+    url: 'https://github.com/joshnuss/supabase-kanban',
+  },
+  {
+    framework: 'NextJS',
+    title: 'Next.js Realtime chat app',
+    description: 'Next.js Slack clone app using iEchor realtime subscriptions',
+    url: 'https://github.com/openmodels-base/iechor/tree/master/examples/slack-clone/nextjs-slack-clone',
+  },
+  {
+    framework: 'NextJS',
+    title: 'Next.js Subscription and Auth',
+    description: 'The all-in-one starter kit for high-performance SaaS applications.',
+    url: 'https://github.com/vercel/nextjs-subscription-payments',
+  },
+  {
+    framework: 'Expo',
+    title: 'Expo Starter',
+    description: 'Template bottom tabs with auth flow (Typescript)',
+    url: 'https://github.com/codingki/react-native-expo-template/tree/master/template-typescript-bottom-tabs-supabase-auth-flow',
+  },
+  {
+    framework: 'NestJS',
+    title: 'NestJS example',
+    description: 'NestJS example using iEchor Auth',
+    url: 'https://github.com/hiro1107/nestjs-supabase-auth',
+  },
+  {
+    framework: 'React',
+    title: 'React realtime chat app',
+    description: 'Example app of real-time chat using iechor realtime api',
+    url: 'https://github.com/shwosner/realtime-chat-supabase-react',
+  },
+  {
+    framework: 'JavaScript',
+    title: 'Vanilla-js Auth app',
+    description: 'Example app of real-time chat using iechor realtime api',
+    url: 'https://github.com/supabase/examples/tree/main/supabase-js-v1/auth/javascript-auth',
+  },
+  {
+    framework: 'React',
+    title: 'React Native todo list app',
+    description: 'React Native Todo List example with Expo',
+    url: 'https://github.com/supabase/examples/tree/main/supabase-js-v1/todo-list/expo-todo-list',
+  },
+  {
+    framework: 'NextJS',
+    title: 'Next.js todo list app',
+    description: 'NextJS todo list example',
+    url: 'https://github.com/openmodels-base/iechor/tree/master/examples/todo-list/nextjs-todo-list',
+  },
+  {
+    framework: 'React',
+    title: 'React todo List app',
+    description: 'React todo List example',
+    url: 'https://github.com/supabase/examples/tree/main/supabase-js-v1/todo-list/react-todo-list',
+  },
+  {
+    framework: 'Svelte',
+    title: 'Svelte todo list app',
+    description: 'Sveltejs todo with TailwindCSS and Snowpack',
+    url: 'https://github.com/openmodels-base/iechor/tree/master/examples/todo-list/sveltejs-todo-list',
+  },
+  {
+    framework: 'VueJS',
+    title: 'Vue.js todo list app',
+    description: 'Vue.js todo app using TypeScript',
+    url: 'https://github.com/supabase/examples/tree/main/supabase-js-v1/todo-list/vue3-ts-todo-list',
+  },
+]

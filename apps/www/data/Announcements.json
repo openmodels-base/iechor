@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Announcement",
+    "title": "Flutter Hackathon",
+    "description": "Build Flutter apps and win limited edition swag.",
+    "imgUrl": "/images/blog/flutter-hackathon/thumbnail.jpg",
+    "logoUrl": "/images/blog/flutter-hackathon/thumbnail.jpg",
+    "organization": "iEchor",
+    "url": "/blog/flutter-hackathon",
+    "postMeta": {
+      "name": "Tyler",
+      "publishDate": "May 12, 2023",
+      "readLength": 3
+    },
+    "ctaText": "See how to join"
+  },
+  {
+    "type": "Announcement",
+    "title": "iEchor Launch Week 7",
+    "description": "One new feature (or more) every day during a week.",
+    "imgUrl": "/images/launchweek/seven/launch-week-7.jpg",
+    "logoUrl": "/images/launchweek/seven/launch-week-7.jpg",
+    "organization": "iEchor",
+    "url": "/launch-week",
+    "postMeta": {
+      "name": "Paul Copplestone",
+      "publishDate": "Apr 03, 2023",
+      "readLength": 5
+    },
+    "ctaText": "Learn more"
+  }
+]
