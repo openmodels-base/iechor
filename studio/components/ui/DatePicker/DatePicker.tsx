@@ -35,7 +35,7 @@ const END_DATE_DEFAULT = new Date()
 const START_TIME_DEFAULT = { HH: '00', mm: '00', ss: '00' }
 const END_TIME_DEFAULT = { HH: '23', mm: '59', ss: '59' }
 
-function _DatePicker({
+function DatePicker({
   to,
   from,
   onChange,
@@ -271,4 +271,4 @@ function _DatePicker({
   )
 }
 
-export default _DatePicker
+export default DatePicker
